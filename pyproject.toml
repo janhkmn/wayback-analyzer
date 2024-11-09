@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "wayback-analyzer"
+version = "0.1.0"
+description = ""
+authors = ["Jan Hoekman <jan.hoekman@me.com>"]
+readme = "README.md"
+packages = [{include = "wayback_analyzer"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+tldextract = "^5.1.3"
+openai = "^1.54.3"
+redis = "^5.2.0"
+markdownify = "^0.13.1"
+beautifulsoup4 = "^4.12.3"
+streamlit = "^1.40.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
